@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left Tab Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #003366; /* Dark blue text */
+        }
+
+        .left-tab {
+            width: 20%;
+            background-color: #1a75ff; /* Darker blue for the tab */
+            padding: 10px;
+            box-sizing: border-box;
+            overflow-y: auto;
+			font-size: 1.5em;
+        }
+		h2 {
+            font-size: 2em;
+            margin: 2px 0;
+			background-color: #ADD8E6;
+			color: #040273
+        }
+
+        .left-tab img {
+            width: 45%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .content {
+            width: 80%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #e6f0ff; /* Lighter blue for content area */
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="left-tab">
+	<p>ALSO MY FAV CHARACTER EVER!!!!!!!!<p>
+        <img src="source/image1.jpg" alt="Image 1">
+        <img src="source/image2.jpg" alt="Image 2">
+        <img src="source/image3.jpg" alt="Image 3">
+        <img src="source/image4.jpg" alt="Image 4">
+        <img src="source/image5.jpg" alt="Image 5">
+        <img src="source/image6.jpg" alt="Image 6">
+        <!-- Add more images or references here -->
+    </div>
+
+    <div class="content">
+        <h1>LAPIS LAZULI</h1>
+		<p> lapis lazuli is UNDOUBTABLY the most developed and realistic character in STEVEN UNIVERSE!!!!<p>
+		
+		<h2>
+		<p>shes also SUPER FUCKING STRONG!!!! SHES LIKE THE MOST POWERFULL NON-DIAMOND GEM!!!!<p>
+		<p> ONTOP OF THAT SHES FUCKING TRAUMATISED SO SHE CAN ABSOLUTELY DEMOLISH SOMEONE!!!!!<p>
+	<img src="source/hehe.gif" width=20% >
+	<img src="source/lapis1.JPG" width=20% >
+	<img src="source/lapis2.JPG" width=20% >
+	
+		</h2>
+		
+		
+	<a href="../index.html"><h1> go back..........<h1><a>
+    
+    </div>
+	
+				  <audio id="autoPlayAudio">
+        <source src="source/LAPISLAZULI.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+			
+				 <script>
+		
+		
+        window.addEventListener('load', function() {
+            var audio = document.getElementById('autoPlayAudio');
+			
+			 audio.volume = 0.25;
+			 
+			 
+            audio.play().catch(function(error) {
+                console.log('Autoplay was prevented. Interaction required.');
+            });
+        });
+    </script>
+
+
+</body>
+</html>
